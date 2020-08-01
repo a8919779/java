@@ -1,0 +1,22 @@
+{
+	"host":[{
+		"info1":"127.0.0.1",
+		"info2":"10001"
+	}],
+	"url":[{
+		"info1":"lc1.co.kr",
+		"info2":"lc2.co.kr"
+	}],
+	"path":[{
+		"info1":"/Users/boramlee/Documents/workspace/Study-boram/src/",
+		"info2":"/Users/boramlee/Documents/workspace/Study-boram/src/socket/"
+	}],
+	"file":[{
+		"info1":"index.html",
+		"info2":"http.html"
+	}],
+	"err":[{
+		"info1":"404.html",
+		"info2":"forbidden.html"
+	}]
+}
