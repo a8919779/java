@@ -24,5 +24,9 @@ public class SelectedSort {
     arr[i] = min;
     }
   }
+
+  for (int k=0;k<arr.size();k++){
+   System.out.println(arr[k]);
+  }
  }
 }
