@@ -12,19 +12,20 @@ public class SelectedSort {
 
   int[] arr = new int[]{1, 10, 5, 9, 8, 2, 4, 6, 3, 7};
 
-  for (int i=0; i < arr.size(); i++) {
+  for (int i=0; i < arr.length; i++) {
     min = 999;
     if (arr[i] < min) {
      min = arr[i];
     }
-    for (int j=i; j<arr.size(); j++) {
-     if (min>arr[j+1]) {
-      min = arr[j+1];
-      temp = j+1;
+    for (int j=i; j<arr.length; j++) {
+     if (min>arr[j]) {
+      min = arr[j];
+      temp = j;
      }
+
+    }
     arr[temp] = arr[i];
     arr[i] = min;
-    }
   }
 
   for (int k=0;k<arr.size();k++){
