@@ -4,7 +4,8 @@
 결과적으로 사이클을 돌때마다 큰숫자가 가장 끝으로 이동한다
 */
 public class BubbleSort {
- int[] arr = new int[];
+ 
+ int[] arr = new int[]{1, 10, 5, 9, 8, 2, 4, 6, 3, 7};
  int temp = 0;
 
  for (int i=0; i<arr.length; i++) {
