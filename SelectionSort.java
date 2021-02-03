@@ -10,7 +10,7 @@ public class SelectedSort {
   int temp;
   int min;
 
-  int arr[10] = new int[1, 10, 5, 9, 8, 2, 4, 6, 3, 7];
+  int[] arr = new int[]{1, 10, 5, 9, 8, 2, 4, 6, 3, 7};
 
   for (int i=0; i < arr.size(); i++) {
     min = 999;
